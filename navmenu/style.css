@@ -1,0 +1,40 @@
+   /* Adding some basic styling for better appearance */
+
+  body {
+  background : rgb(159, 222, 159);
+   }
+   ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #06daf1;
+    overflow: hidden;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #85bcda;
+  }
+
+  /* Styling for submenus */
+  .submenu {
+    display: none;
+  }
+
+  /* Showing submenus when the parent is hovered */
+  li:hover .submenu {
+    display: inline-block;
+    position: absolute;
+    background-color: #8f6262;
+  }
